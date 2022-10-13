@@ -1,0 +1,37 @@
+<header class="main-header flex justify-between  align-center container" id="delete-this-header">
+
+  <div class="about-user flex align-center">
+    <figure class="user-picture flex justify-center align-center" title="">
+      <img src="/assets/1662954279008 1.png" alt="">
+    </figure>
+    <div class="user-name-occupation flex direction-column">
+      <h2 class="title-1">Samuel Leão</h2>
+      <span class="occupation">UI Developer</span>
+    </div>
+    
+  </div>
+  
+  <div class="header-links flex">
+    <a class="header-link pink-1" href="#" title="">Email</a>
+    <a class="header-link"  href="/pages/home/index.html">Trocar de Usuário</a>
+  </div>
+</header> -->
+
+<!-- <main class="main-content container">
+  <ul class="repositories flex wrap" id="repo-list">
+    <li class="repository flex direction-column justify-between">
+      <a href=""><h3 class="title-2 repository-title">Project Module 2</h3></a>
+      
+      <p class="text-def-2 repository-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consectetur magnam ab </p>
+
+      <div class="repo-links flex">
+        <a class="repo-btn" href="" target="_blank">Repositório</a>
+        <a class="repo-btn" href="" target="_blank">Demo</a>
+
+      </div>
+
+    </li>
+
+
+  </ul>
+</main>

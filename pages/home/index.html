@@ -4,12 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="/styles/reset.css" />
     <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/styles/flex.css" />
+    <link rel="stylesheet" href="/styles/text.css" />
+    <link rel="stylesheet" href="/styles/buttons.css" />
+
+    <link rel="icon" href="/assets/icons/favicon.png">
     <link rel="stylesheet" href="index.css" />
     <title>Git Search</title>
   </head>
   <body>
-    <main></main>
+
+    <main class="main-content flex">
+      <section class="company-presentation flex align-center justify-center">
+        <div class="about-company-aux flex direction-column justify-between">
+          <h1 class="company-logo">Git Search</h1>
+          <p class="text-def-1">Encontre e se conecte com profissionais de forma rápida e fácil</p>
+
+          <div class="flex align-center">
+            <span class=".bold-text-1">Achados recentemente:</span>
+            <div class="flex align-center">
+              
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="search-for-user flex align-center justify-center">
+        <div class="search-for-user-area flex direction-column justify-between">
+
+          <h2 class="title-2 search-title">Procurar por um usuário</h2>
+          
+          <form class="search-for-user-form flex direction-column">
+            <label for="user-search" class="label-def-1">Usuário Gituhb</label>
+            <input placeholder="Digite um usuário do github aqui..." id="user-search" class="search-user-input">
+            <small class="user-not-found hidden">Usuário não encontrado</small>
+            <button id="submit-search" class="submit-search-btn invalid-input">Ver perfil do github</button>
+          </form>
+
+        </div>
+      </section>
+
+    </main>
+
     <script src="index.js"></script>
   </body>
 </html>

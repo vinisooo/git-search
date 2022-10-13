@@ -1,1 +1,107 @@
-/* Desenvolva sua estilização aqui...*/
+body{
+    background-color: var(--color-grey-2);
+    animation: displayAll 0.8s ease;
+}
+
+.user-picture{
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    min-height: 80px;
+    background-color: var(--color-grey-4);
+    border-radius: 50%;
+    border: 3px solid var(--color-brand-1);
+    margin-right: 20px;
+    overflow: hidden;
+    background-color: var(--color-brand-1);
+}
+
+.about-user:hover .user-picture img{
+    transform: scale(1.2);
+}
+
+.user-picture img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease;
+    transform: scale(1.10);
+}
+
+.main-header{
+    padding-top: 61px;
+}
+
+.user-name-occupation{
+    gap: 0.75rem;
+}
+
+.header-links{
+    gap: 0.75rem;
+}
+
+.main-content{
+    padding-top: 70px;
+}
+
+.repositories{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.repository{
+    width: 48%;
+    height: 243px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 2px solid var(--color-grey-4);
+    padding: 40px 27px;
+    margin-bottom: 30px;
+    transition: 0.3s ease;
+}
+
+.repository:hover{
+    border: 2px solid var(--color-grey-7);
+}
+
+.repo-links{
+    gap: 0.75rem;
+}
+
+@media (max-width: 650px) {
+    .main-header{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .repository{
+        width: 100%;
+    }
+    .about-user{
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .about-user .user-picture{
+        margin: 0;
+        width: 120px;
+        height: 120px;
+    }
+
+    .about-user .occupation{
+        max-width: 100% !important;
+    }
+}
+
+
+@keyframes displayAll {
+    0%{
+        opacity: 0;
+        transform: scale(0.8);
+        filter: blur(5px);
+    }100%{
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0px);
+    }
+}

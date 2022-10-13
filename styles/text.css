@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.company-presentation{
+    color: var(--color-grey-7);
+}
+.search-for-user-area{
+    color: var(--color-grey-7);
+}
+
+.company-logo{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.search-title{
+    padding-bottom: 45px;
+}
+
+.text-def-1{
+    font-size: 1.25rem;
+    line-height: 150%;
+    font-weight: 400;
+    max-width: 500px;
+}
+
+.text-def-2{
+    font-size: 0.75rem;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.bold-text-1{
+    font-size: 1rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.title-1{
+    color: var(--color-grey-7);
+    font-weight: 700;
+    font-weight: 24px;
+}
+
+.title-2{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.repository a{
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.repository-title{
+    color: var(--color-grey-7);
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+}
+
+
+.label-def-1{
+    font-size: 0.75rem;
+}
+
+.user-not-found{
+    color: var(--color-brand-1);
+    font-size: 0.75rem;
+    transition: 0.2s ease;
+}
+
+.repository-description{
+    color: var(--color-grey-5);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+
+.user-name-occupation .occupation{
+    font-size: 1rem;
+    line-height: 150%;
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    color: var(--color-grey-5);
+    
+}
