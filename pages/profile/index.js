@@ -54,7 +54,7 @@ function createHeader (user){
     headerLinkA.innerText = "Email";
     headerLinkA.title = user.email || "sem e-mail cadastrado"
     headerLinkA2.innerText = "Procurar por outro usuario"
-    headerLinkA2.href = "/pages/home/index.html"
+    headerLinkA2.href = "../../index.html"
 
     userFigure.append(userImg);
     userNameDiv.append(userName, userSpan);
