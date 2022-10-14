@@ -59,7 +59,7 @@
 .recent-user-img{
     width: 44px;
     height: 44px;
-    border: 1px solid transparent;
+    border: 1px solid var(--color-brand-1);
     background-color: grey;
     overflow: hidden;
     transition: 0.3s ease;
