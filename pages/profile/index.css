@@ -34,6 +34,7 @@ body{
 
 .user-name-occupation{
     gap: 0.75rem;
+    max-width: 300px;
 }
 
 .header-links{
