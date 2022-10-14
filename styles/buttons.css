@@ -72,6 +72,21 @@
     background-color: var(--color-brand-1);
 }
 
+.search-recent-btn{
+    position: absolute;
+    bottom: -17px;
+    border: none;
+    background-color: var(--color-grey-7);
+    padding: 4px 8px;
+    border-radius: 8px;
+    height: 26px;
+    white-space: nowrap;
+    font-size: 0.75rem;
+    color: var(--color-grey-1);
+    font-weight: 500;
+}
+
+
 @keyframes loading {
     to{
         transform:rotate(360deg);

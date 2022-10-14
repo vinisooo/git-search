@@ -1,5 +1,4 @@
 function userFromLocalStorage(){
-
     const userStr = localStorage.getItem("@git-search: current-user");
 
     if (userStr){
@@ -13,6 +12,7 @@ function userFromLocalStorage(){
     }
 
 }
+
 
 const userInfo = userFromLocalStorage();
 
