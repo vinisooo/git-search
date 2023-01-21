@@ -5,17 +5,6 @@ const userNotFoundMsg = document.getElementsByClassName("user-not-found")[0];
 let recentUsers = new Array;
 //PEGANDO USUARIOS ACECSSADOS RECENTEMENTE DO LOCAL STORAGE
 
-// function checkLocalStorage(){
-
-//     let users = localStorage.getItem("@git-search: recent-users");
-//     users = JSON.parse(users);
-
-//     if (users == null){
-//         users = [];
-//         localStorage.setItem("@git-search: recent-users",JSON.stringify(users));
-//     }
-// }
-
 function getRecentUsers(){
     const recents = localStorage.getItem("@git-search: recent-users");
 
