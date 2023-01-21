@@ -93,7 +93,7 @@ async function getAPIResult(nickName){
     
         const strResponse = JSON.stringify(userData);
         localStorage.setItem("@git-search: current-user", strResponse);
-        window.location.href = "/pages/profile/index.html";
+        window.location.href = "https://vinisooo.github.io/git-search/pages/profile/index.html";
         
 
     }
