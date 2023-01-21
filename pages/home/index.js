@@ -87,15 +87,11 @@ async function getAPIResult(nickName){
         invalidInput();
         return userData
     }else{
-
-        console.log(userData);
         addNewRecent(userData);
     
         const strResponse = JSON.stringify(userData);
         localStorage.setItem("@git-search: current-user", strResponse);
-        window.location.href = "https://vinisooo.github.io/git-search/pages/profile/index.html";
-        
-
+        window.location.href = "./pages/profile/index.html";
     }
     
     return userData
